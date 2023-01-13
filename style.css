@@ -1,0 +1,130 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    font-family: 'Ginto Nord';
+    color: white;
+    background: #1d1d1d;
+}
+
+
+.logo {
+    border-radius: 280px;
+    box-shadow: 0 0 15px black;
+    margin-top: 150px;
+    margin-bottom: -300px;
+    margin-left: 120px;
+
+}
+
+
+
+.img-text {
+    margin-top: 310px;
+    margin-bottom: -300px;
+    margin-left: 150px;
+    font-size: 20px;
+    text-shadow: 0 0 30px black;
+}
+
+
+.home {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    min-height: calc(100vh - 60px);
+    padding: 0 10vw;
+}
+
+.hero {
+    width: 50%;
+}
+
+
+
+.hero-heading {
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+
+.hi-text {
+    color: rgb(1, 255, 221);
+    text-shadow: 0 0 80px;
+}
+
+
+
+
+.info-text {
+    line-height: 30px;
+    margin-top: 50px;
+    text-shadow: 0 0 30px black;
+    font-size: 20px;
+}
+
+
+.js-text {
+    color: rgb(247, 255, 7);
+    text-shadow: 0 0 5px;
+}
+
+
+.vue-js-text {
+    color: rgb(0, 210, 0);
+    text-shadow: 0 0 5px;
+}
+
+
+
+.html-text {
+    color: rgb(241, 101, 41);
+    text-shadow: 0 0 5px;
+}
+
+
+
+.css-text {
+    color: #0c61ff;
+    text-shadow: 0 0 5px;
+}
+
+
+
+.footer {
+    margin-top: 50px;
+}
+
+
+
+.social a {
+    background: #1d1d1d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms ease;
+}
+
+
+
+.vk a:hover {
+    color: rgb(0, 170, 255);
+    text-shadow: 0 0 30px;
+    transition: 500ms ease;
+
+}
